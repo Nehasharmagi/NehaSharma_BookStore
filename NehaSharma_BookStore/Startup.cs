@@ -7,7 +7,8 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
-using NehaSharma_BookStore.Data;
+
+using NehaSharma_BookStore.DataAccess.Data;
 using System;
 using System.Collections.Generic;
 using System.Linq;
