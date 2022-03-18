@@ -64,7 +64,7 @@ namespace NehaSharma_BookStore
             {
                 endpoints.MapControllerRoute(
                     name: "default",
-                    pattern: "{controller=Home}/{action=Index}/{id?}");
+                    pattern: "{area=customer}/{action=Index}/{id?}");
                 endpoints.MapRazorPages();
             });
         }
